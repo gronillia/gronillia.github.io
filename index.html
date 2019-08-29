@@ -157,7 +157,9 @@
 				<img src="https://cdn.glitch.com/4e040d5c-9fe4-41db-a64c-20b51302ee26%2Ftrash_2.png?v=1566982424383" alt="">
 		</div>
     </div>
-    <div class="Basic-Text-Frame">
+    
+    
+    <div class="Basic-Text-Frame" id="weird">
       <p><span class="table"><a href= "#contacts_h">Контакти</a></span><button id="start" class ="button">
         Start madness
       </button>
@@ -168,6 +170,7 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick.js"></script>
+    
     <script type="text/javascript">
     $(document).ready(function(){
       $('.slides1').slick({
@@ -185,15 +188,7 @@
         slidesToScroll: 3
 });
     });
-      var gifStart = false;
-      $("#start").on("click", function(event){
-        $("#everything").hide("slow");
-        gifStart = true;
-      });
-      $("#stop").on("click", function(event){
-        $("#everything").show("slow");
-        gifStart = false;
-      });
-      
-  </script>
+    </script>
+    
+  
 </body></html>
