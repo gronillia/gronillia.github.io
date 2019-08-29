@@ -7,8 +7,8 @@ p {
 	font-variant:normal;
 	font-weight:normal;
 	line-height:1.2;
-	margin-bottom:5%;
-	margin-left:10%;
+	margin-bottom:2%;
+	margin-left:20%;
 	margin-right:10%;
 	margin-top:5%;
 	orphans:1;
@@ -27,32 +27,43 @@ div.Basic-Graphics-Frame {
 	border-style:solid;
 }
 div.Basic-Text-Frame {
-  color: rgb(25, 250, 77);
+  color: rgb(255, 255, 255);
 	border-style:solid;
   max-width: 70%;
   margin-left:10%;
 }
 
+body{
+  background-color:rgb(0,0,0);
+}
+
+.color{
+  background-color:white;
+}
 
 .subHeading {
+  background-color:white;
 	font-family:futura-pt, sans-serif;
 	font-size:20px;
 	font-style:normal;
 	font-weight:300;
 }
 span.CharOverride-2 {
+  background-color:white;
 	font-family:futura-pt, sans-serif;
 	font-size:20px;
 	font-style:normal;
 	font-weight:600;
 }
 span.mainText {
+  background-color:white;
 	font-family:futura-pt, sans-serif;
 	font-size:20px;
 	font-style:normal;
 	font-weight:normal;
 }
 span.Heading {
+  background-color:white;
 	font-family:futura-pt, sans-serif;
 	font-size:60px;
 	font-style:normal;
@@ -66,7 +77,7 @@ span.table {
 	font-weight:bold;
 }
 span.info {
-  color: rgb(0, 0, 0);
+  background-color:white;
 	font-family:futura-pt, sans-serif;
 	font-size:20px;
 	font-style:italic;
@@ -102,3 +113,23 @@ span.info {
 	font-style:normal;
 	font-weight:normal;
 }
+
+a:link {
+  color: blue;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
