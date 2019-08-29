@@ -27,6 +27,7 @@ div.Basic-Graphics-Frame {
 	border-style:solid;
 }
 div.Basic-Text-Frame {
+  color: rgb(25, 250, 77);
 	border-style:solid;
   max-width: 70%;
   margin-left:10%;
@@ -58,12 +59,14 @@ span.Heading {
 	font-weight:bold;
 }
 span.table {
+  color: rgb(245, 111, 66);
 	font-family:futura-pt, sans-serif;
 	font-size:40px;
 	font-style:normal;
 	font-weight:bold;
 }
 span.info {
+  color: rgb(0, 0, 0);
 	font-family:futura-pt, sans-serif;
 	font-size:20px;
 	font-style:italic;
@@ -71,10 +74,20 @@ span.info {
 }
 
 
-
+.button{
+  	font-family:futura-pt, sans-serif;
+	  font-size:20px;
+	  font-style:normal;
+	  font-weight:normal;
+    background-color:rgb(245, 111, 66);
+    position: relative;
+    left:10%;
+    width: auto;
+    height: 20%;
+}
 
 .img1{
-    position: fixed;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 10%;
