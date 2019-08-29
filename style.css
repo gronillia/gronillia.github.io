@@ -43,42 +43,42 @@ body{
 
 .subHeading {
   background-color:white;
-	font-family:futura-pt, sans-serif;
+	font-family:futura-pt, 'Roboto', sans-serif;
 	font-size:20px;
 	font-style:normal;
 	font-weight:300;
 }
 span.CharOverride-2 {
   background-color:white;
-	font-family:futura-pt, sans-serif;
+	font-family:futura-pt, 'Roboto', sans-serif;
 	font-size:20px;
 	font-style:normal;
 	font-weight:600;
 }
 span.mainText {
   background-color:white;
-	font-family:futura-pt, sans-serif;
+	font-family:futura-pt, 'Roboto', sans-serif;
 	font-size:20px;
 	font-style:normal;
 	font-weight:normal;
 }
 span.Heading {
   background-color:white;
-	font-family:futura-pt, sans-serif;
+	font-family:futura-pt, 'Roboto', sans-serif;
 	font-size:60px;
 	font-style:normal;
 	font-weight:bold;
 }
 span.table {
   color: rgb(245, 111, 66);
-	font-family:futura-pt, sans-serif;
+	font-family:futura-pt, 'Roboto', sans-serif;
 	font-size:40px;
 	font-style:normal;
 	font-weight:bold;
 }
 span.info {
   background-color:white;
-	font-family:futura-pt, sans-serif;
+	font-family:futura-pt, 'Roboto', sans-serif;
 	font-size:20px;
 	font-style:italic;
 	font-weight:400;
@@ -86,7 +86,7 @@ span.info {
 
 
 .button{
-  	font-family:futura-pt, sans-serif;
+  	font-family:futura-pt, 'Roboto', sans-serif;
 	  font-size:20px;
 	  font-style:normal;
 	  font-weight:normal;
@@ -108,7 +108,7 @@ span.info {
 }
 
 .mainText{
-	font-family:"Futura PT Medium", sans-serif;
+	font-family:"Futura PT Medium", 'Roboto', sans-serif;
 	font-size:20px;
 	font-style:normal;
 	font-weight:normal;
