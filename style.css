@@ -90,6 +90,7 @@ span.info {
 	  font-size:20px;
 	  font-style:normal;
 	  font-weight:normal;
+    color:white;
     background-color:rgb(245, 111, 66);
     position: relative;
     left:10%;
@@ -108,7 +109,7 @@ span.info {
 }
 
 .mainText{
-	font-family:"Futura PT Medium", sans-serif, 'Comfortaa', cursive;
+	font-family:"Futura PT Medium", 'Comfortaa', cursive;
 	font-size:20px;
 	font-style:normal;
 	font-weight:normal;
@@ -133,3 +134,21 @@ a:active {
   color: blue;
 }
 
+#link:link {
+  color: white;
+}
+
+/* visited link */
+#link:visited {
+  color: white;
+}
+
+/* mouse over link */
+#link:hover {
+  color: hotpink;
+}
+
+/* selected link */
+#link:active {
+  color: white;
+}
