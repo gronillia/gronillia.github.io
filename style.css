@@ -29,6 +29,7 @@ div.Basic-Graphics-Frame {
 div.Basic-Text-Frame {
 	border-style:solid;
   max-width: 70%;
+  margin-left:10%;
 }
 
 
