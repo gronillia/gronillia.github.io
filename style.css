@@ -8,7 +8,7 @@ p {
 	font-weight:normal;
 	line-height:1.2;
 	margin-bottom:2%;
-	margin-left:20%;
+	margin-left:5%;
 	margin-right:10%;
 	margin-top:5%;
 	orphans:1;
@@ -19,7 +19,7 @@ p {
 	text-indent:0px;
 	text-transform:none;
 	widows:1;
-  max-width: 50%;
+  max-width: 70%;
 }
 div.Basic-Graphics-Frame {
 	border-color:#000000;
@@ -29,8 +29,24 @@ div.Basic-Graphics-Frame {
 div.Basic-Text-Frame {
   color: rgb(255, 255, 255);
 	border-style:solid;
+  border-width: 0.01em;
   max-width: 70%;
   margin-left:10%;
+}
+
+.header{
+  position: fixed;
+  bottom:0;
+  right:0;
+  background-color: hotpink;
+  opacity:0.70;
+  z-index:300;
+  margin-bottom:2%;
+	margin-right:2%;
+	text-align: center;
+  padding: 1%;
+  height: auto%;
+  width:20%;
 }
 
 body{
@@ -43,21 +59,21 @@ body{
 
 .subHeading {
   background-color:white;
-	font-family:futura-pt, 'Roboto', sans-serif;
+	font-family:futura-pt, 'Roboto Mono', sans-serif;
 	font-size:20px;
 	font-style:normal;
 	font-weight:300;
 }
 span.CharOverride-2 {
   background-color:white;
-	font-family:futura-pt, 'Roboto', sans-serif;
+	font-family:futura-pt, 'Roboto Mono', sans-serif;
 	font-size:20px;
 	font-style:normal;
 	font-weight:600;
 }
 span.mainText {
   background-color:white;
-	font-family:futura-pt, 'Roboto', sans-serif;
+	font-family:futura-pt, 'Roboto Mono', sans-serif;
 	font-size:20px;
 	font-style:normal;
 	font-weight:normal;
@@ -71,14 +87,14 @@ span.Heading {
 }
 span.table {
   color: rgb(245, 111, 66);
-	font-family:futura-pt, 'Roboto', sans-serif;
+	font-family:futura-pt, 'Roboto Mono', sans-serif;
 	font-size:40px;
 	font-style:normal;
 	font-weight:bold;
 }
 span.info {
   background-color:white;
-	font-family:futura-pt, 'Roboto', sans-serif;
+	font-family:futura-pt, 'Roboto Mono', sans-serif;
 	font-size:20px;
 	font-style:italic;
 	font-weight:400;
@@ -86,14 +102,14 @@ span.info {
 
 
 .button{
-  	font-family:futura-pt, 'Roboto', sans-serif;
+    -epub-hyphens:auto;
+  	color:#000000;
+  	font-family:futura-pt, 'Roboto Mono', sans-serif;
 	  font-size:20px;
 	  font-style:normal;
 	  font-weight:normal;
     color:white;
     background-color:rgb(245, 111, 66);
-    position: relative;
-    left:10%;
     width: auto;
     height: 20%;
 }
@@ -109,7 +125,7 @@ span.info {
 }
 
 .mainText{
-	font-family:"Futura PT Medium", 'Comfortaa', cursive;
+	font-family:'Futura PT Medium', 'Comfortaa', 'Montserrat Alternates', sans-serif;
 	font-size:20px;
 	font-style:normal;
 	font-weight:normal;
@@ -145,7 +161,7 @@ a:active {
 
 /* mouse over link */
 #link:hover {
-  color: hotpink;
+  color: blue;
 }
 
 /* selected link */
