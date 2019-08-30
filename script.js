@@ -7,6 +7,7 @@ var gifStart = false;
       $("#start").on("click", function(event){
         $("#everything").hide("slow");
         gifStart = true;
+        $("<p>").text("Click! Click! Click!").addClass("mainText weird color").css("opacity", "0.70").appendTo("body");
       });
       $(".stop").on("click", function(event){
         $("#everything").show("slow");
