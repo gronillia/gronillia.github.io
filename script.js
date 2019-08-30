@@ -8,7 +8,7 @@ var gifStart = false;
         $("#everything").hide("slow");
         gifStart = true;
       });
-      $("#stop").on("click", function(event){
+      $(".stop").on("click", function(event){
         $("#everything").show("slow");
         gifStart = false;
         $(".weird").remove();
